@@ -5,8 +5,6 @@ public class Main {
 
         //excercise 1
 
-        System.out.println("");
-
         System.out.println("Задание №1");
 
         int [] arrInt = new int [3];
@@ -14,11 +12,10 @@ public class Main {
         arrInt[1] = 2;
         arrInt[2] = 3;
         float [] arrFloat = {1.57f, 7.654f, 9.986f};
-        int [] arrArbitrary = {1,2,3,4,5};
+        int [] arrArbitrary = {3, 5, 5, 5};
+
 
         //excercise 2
-
-        System.out.println("");
 
         System.out.println("Задание №2");
 
@@ -39,7 +36,7 @@ public class Main {
         }
 
         for(int i = 0; i < arrArbitrary.length; i++) {
-            if(arrArbitrary[i] == arrArbitrary[arrArbitrary.length - 1]) {
+            if(arrArbitrary[i] == arrArbitrary[arrArbitrary.length - 1] && i == arrArbitrary.length - 1 ) {
                 System.out.println(arrArbitrary[i]);
                 break;
             }
@@ -47,8 +44,6 @@ public class Main {
         }
 
         //excercise 3
-
-        System.out.println("");
 
         System.out.println("Задание №3");
 
@@ -68,12 +63,15 @@ public class Main {
             }
             System.out.println(arrFloat[i] + ",");
         }
-        for(int i = arrArbitrary.length - 1; i >= 0; i--) {
-            if(arrArbitrary[i] == arrArbitrary[0]) {
-                System.out.println(arrArbitrary[i]);
+
+        int [] array = {6, 6, 6, 6};
+
+        for(int i = array.length - 1; i >= 0; i--) {
+            if(array[i] == array[0] && i == 0) {
+                System.out.println(array[i]);
                 break;
             }
-            System.out.println(arrArbitrary[i] + ",");
+            System.out.println(array[i] + ",");
         }
 
         //excercise 4
