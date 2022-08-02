@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        //excercise 1
 
         System.out.println("Задание №1");
 
@@ -15,7 +14,6 @@ public class Main {
         int [] arrArbitrary = {3, 5, 5, 5};
 
 
-        //excercise 2
 
         System.out.println("Задание №2");
 
@@ -43,7 +41,6 @@ public class Main {
             System.out.println(arrArbitrary[i] + ",");
         }
 
-        //excercise 3
 
         System.out.println("Задание №3");
 
@@ -74,9 +71,6 @@ public class Main {
             System.out.println(array[i] + ",");
         }
 
-        //excercise 4
-
-        System.out.println("");
 
         System.out.println("Задание №4");
 
