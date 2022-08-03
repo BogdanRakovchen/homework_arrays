@@ -12,10 +12,19 @@ public class Main {
         arrInt[2] = 3;
         float [] arrFloat = {1.57f, 7.654f, 9.986f};
         int [] arrArbitrary = {3, 5, 5, 5};
+        int [] array = {6,6,6,6};
 
 
 
         System.out.println("Задание №2");
+
+        for(int i = 0; i < array.length; i++) {
+            if(array[i] == array[array.length - 1] && i == array.length - 1) {
+                System.out.println(array[i]);
+                break;
+            }
+            System.out.println(array[i] + ",");
+        }
 
         for(int i = 0; i <= arrInt.length; i++) {
             if(arrInt[i] == arrInt[arrInt.length - 1]) {
@@ -61,7 +70,6 @@ public class Main {
             System.out.println(arrFloat[i] + ",");
         }
 
-        int [] array = {6, 6, 6, 6};
 
         for(int i = array.length - 1; i >= 0; i--) {
             if(array[i] == array[0] && i == 0) {
