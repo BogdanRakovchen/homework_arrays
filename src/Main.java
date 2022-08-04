@@ -19,27 +19,18 @@ public class Main {
         System.out.println("Задание №2");
 
         for(int i = 0; i < arrInt.length; i++) {
-            if(arrInt[i] == arrInt[arrInt.length - 1] && i == arrInt.length - 1) {
-                System.out.println(arrInt[i]);
-                break;
-            }
+
             System.out.println(arrInt[i] + ",");
         }
 
 
         for(int i = 0; i < arrFloat.length; i++) {
-            if(arrFloat[i] == arrFloat[arrFloat.length - 1] && i == arrFloat.length - 1) {
-                System.out.println(arrFloat[i]);
-                break;
-            }
+
             System.out.println(arrFloat[i] + ",");
         }
 
         for(int i = 0; i < arrArbitrary.length; i++) {
-            if(arrArbitrary[i] == arrArbitrary[arrArbitrary.length - 1] && i == arrArbitrary.length - 1 ) {
-                System.out.println(arrArbitrary[i]);
-                break;
-            }
+
             System.out.println(arrArbitrary[i] + ",");
         }
 
@@ -49,21 +40,21 @@ public class Main {
 
 
         for(int i = arrFloat.length - 1; i >= 0; i--) {
-            if(arrFloat[i] == arrFloat[0] && i == 0) {
-                System.out.println(arrFloat[i]);
-                break;
-            }
+
             System.out.println(arrFloat[i] + ",");
         }
 
 
         for(int i = arrInt.length - 1; i >= 0; i--) {
-            if(arrInt[i] == arrInt[0] && i == 0) {
-                System.out.println(arrInt[i]);
-                break;
-            }
+
             System.out.println(arrInt[i] + ",");
         }
+
+        for(int i = arrArbitrary.length - 1; i >= 0; i--) {
+
+            System.out.println(arrArbitrary[i] + ",");
+        }
+
 
 
         System.out.println("Задание №4");
