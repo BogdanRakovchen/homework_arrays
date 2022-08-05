@@ -20,18 +20,36 @@ public class Main {
 
         for(int i = 0; i < arrInt.length; i++) {
 
-            System.out.println(arrInt[i] + ",");
+            if(i == arrInt.length - 1) {
+                System.out.print(arrInt[i]);
+            } else {
+                System.out.print(arrInt[i] + ",");
+
+            }
+
+            System.out.println();
         }
 
 
         for(int i = 0; i < arrFloat.length; i++) {
 
-            System.out.println(arrFloat[i] + ",");
+            if(i == arrFloat.length - 1) {
+                System.out.println(arrFloat[i]);
+            } else {
+                System.out.println(arrFloat[i] + ",");
+            }
+
         }
 
         for(int i = 0; i < arrArbitrary.length; i++) {
 
-            System.out.println(arrArbitrary[i] + ",");
+            if(i == arrArbitrary.length - 1) {
+                System.out.println(arrArbitrary[i]);
+
+            } else {
+                System.out.println(arrArbitrary[i] + ",");
+            }
+
         }
 
 
@@ -41,18 +59,31 @@ public class Main {
 
         for(int i = arrFloat.length - 1; i >= 0; i--) {
 
-            System.out.println(arrFloat[i] + ",");
+            if(i == 0) {
+                System.out.println(arrFloat[i]);
+            } else {
+                System.out.println(arrFloat[i] + ",");
+            }
+
         }
 
 
         for(int i = arrInt.length - 1; i >= 0; i--) {
-
-            System.out.println(arrInt[i] + ",");
+            if(i == 0) {
+                System.out.println(arrInt[i]);
+            } else {
+                System.out.println(arrInt[i] + ",");
+            }
         }
 
         for(int i = arrArbitrary.length - 1; i >= 0; i--) {
 
-            System.out.println(arrArbitrary[i] + ",");
+            if(i == 0) {
+                System.out.println(arrArbitrary[i]);
+            } else {
+                System.out.println(arrArbitrary[i] + ",");
+            }
+
         }
 
 
